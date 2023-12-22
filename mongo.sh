@@ -38,7 +38,7 @@ systemctl enable mongod &>>$LOGFILE
 
 VALIDATE "Enabling mongod"
 
-systemctl enable start mongod &>>$LOGFILE
+systemctl start mongod &>>$LOGFILE
 
 VALIDATE "Starting mongod"
 
