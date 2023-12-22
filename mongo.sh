@@ -13,6 +13,7 @@ echo "Script starting executing at $DATEANDTIME" &>>LOGFILE
 if [ $ID -ne 0 ]
 then
     echo -e "$Y You should run this using root$NC"
+    exit 1
 fi
 
 VALIDATE(){
