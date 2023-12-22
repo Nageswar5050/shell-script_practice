@@ -8,7 +8,7 @@ G="\e[32m"
 Y="\e[33m"
 NC="\e[0m"
 
-echo "Script starting executing at $DATEANDTIME" &>>LOGFILE 
+echo "Script starting executing at $DATEANDTIME" &>>$LOGFILE 
 
 if [ $ID -ne 0 ]
 then
