@@ -2,7 +2,7 @@
 
 ID=$(id -u)
 DATEANDTIME=$(date +%F-%H:%M:%S)
-LOGFILE="/tmp/logs/$0/$DATEANDTIME.log"
+LOGFILE=/tmp/logs/$0/$DATEANDTIME.log
 R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
